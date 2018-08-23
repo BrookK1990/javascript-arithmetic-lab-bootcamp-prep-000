@@ -27,8 +27,8 @@ return parseInt(a,10)
 }
 
 function preserveDecimal(n) {
-return parseFloat('2.222')
+if (isNaN(n)) {
+  return 'True'
 }
-function isNaN(preserveDecimal(n))) {
-  return parseFloat('sldkjflksjf')
+return parseFloat('2.222')
 }
